@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "Noto Sans JP";
+}
+
+.page{
+    margin:8px;
+}
+
+header{
+    /* background: rgb(224, 224, 224); */
+    display:flex;
+    /* border-bottom: solid 1px;
+    border-color: rgb(124, 124, 124); */
+    box-shadow: 0 0 5px;/*x, y, blur*/
+    background-color: #ffffff;
+    color:rgb(35, 33, 32);
+    padding: 10px;
+    font-weight: bolder;
+    height:50px;
+}
+
+header img{
+    
+}
+
+header h1{
+    margin: 0 10px;
+}
+
+.btn-array{
+    display: flex;
+}
+
+.led-btn{
+    background-color: #ffffff; /* Green */
+    box-shadow: 0 5px 10px #aeaeae;/*x, y, blur*/
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  
+}
+
+.led-btn img{
+    height:200px;
+}
+
